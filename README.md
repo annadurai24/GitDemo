@@ -1,3 +1,3 @@
 # GitDemo
 
-Welcome to my risth apge
+Welcome to first gitgbu.
