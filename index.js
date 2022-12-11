@@ -8,8 +8,8 @@ app.get('/',(req,res) => {
     res.json({message:'welcome to SMC'})
 })
 
-app.get('/nandhika',(req,res) => {
-    res.json({name:'nandhika',age:15,school:"Rossary matriculation school"});
+app.get('/nandi',(req,res) => {
+    res.json({name:'nandhika',age:15,school:"Rossary matriculation school,mylapore"});
 })
 
 app.get('/home',(req,res) => {
