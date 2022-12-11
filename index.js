@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/',(req,res) => {
-    res.json({message:'welcome to SMC'})
+    res.json({message:'welcome to Sundari Silks India'})
 })
 
 app.get('/nandhika',(req,res) => {
