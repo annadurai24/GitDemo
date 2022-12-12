@@ -9,7 +9,12 @@ app.get('/',(req,res) => {
 })
 
 app.get('/nandi',(req,res) => {
-    res.json({name:'nandhika',age:15,school:"Rossary matriculation school,mylapore"});
+    res.json(
+        {
+            name:'nandhika',
+            age:15,
+            school:"Rossary matriculation school,mylapore"
+        });
 })
 
 app.get('/home',(req,res) => {
