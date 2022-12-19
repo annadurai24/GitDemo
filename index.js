@@ -12,7 +12,7 @@ app.get('/nandi',(req,res) => {
     res.json(
         {
             name:'nandhika',
-            age:15,
+            age:27,
             school:"Rossary matriculation school,mylapore"
         });
 })
