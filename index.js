@@ -13,7 +13,9 @@ app.get('/nandi',(req,res) => {
         {
             name:'nandhika',
             age:27,
-            school:"Rossary matriculation school,mylapore"
+            school:"Rossary matriculation school,mylapore",
+            city:"Chennai",
+            state:"Tamil Nadu"
         });
 })
 
