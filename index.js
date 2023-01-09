@@ -20,12 +20,27 @@ app.get('/nandi',(req,res) => {
 })
 
 app.get("/employee", (req, res) => {
-        res.json({
-            name : "Sakthivel S",
-            status: "Present",
-            inTime : "09:02:02",
-            outTime : "06:23:11"
-        })
+        res.json({employees : [
+                 {
+                    name : "Pothiraj S",
+                    status: "Present",
+                    inTime : "09:32:02",
+                    outTime : "06:23:11"
+                },
+                 {
+                    name : "Chittibabu S",
+                    status: "Absent",
+                    inTime : "",
+                    outTime : ""
+                },
+                 {
+                    name : "Ganesan S",
+                    status: "Present",
+                    inTime : "09:25:00",
+                    outTime : "07:01:23"
+                }
+        
+        ]})
 })
 
 app.get('/home',(req,res) => {
