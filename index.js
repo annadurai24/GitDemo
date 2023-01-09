@@ -19,6 +19,15 @@ app.get('/nandi',(req,res) => {
         });
 })
 
+app.get("/employee", (req, res) => {
+        res.json({
+            name : "Annadurai",
+            status: "Present,
+            inTime : "10:02:02",
+            outTime : "05:23:11"
+        })
+})
+
 app.get('/home',(req,res) => {
     res.json({username:"annadurai",password:'mageshwari'});
 })
