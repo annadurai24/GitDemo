@@ -21,10 +21,10 @@ app.get('/nandi',(req,res) => {
 
 app.get("/employee", (req, res) => {
         res.json({
-            name : "Shankar Raman",
-            status: "absent",
-            inTime : "10:02:02",
-            outTime : "05:23:11"
+            name : "Sakthivel S",
+            status: "Present",
+            inTime : "09:02:02",
+            outTime : "06:23:11"
         })
 })
 
